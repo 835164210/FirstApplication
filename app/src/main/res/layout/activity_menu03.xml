@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="toGo"
+    tools:context=".Menu03">
+
+    <TextView
+        android:id="@+id/heading02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/time_to_choose"
+        android:textAllCaps="true"
+        android:textColor="#6600CC"
+        android:textSize="30sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/infob"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/infob"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="24dp"
+        android:background="#EDEDED"
+        android:onClick="toGo"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/get_to_know"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/someoneb"
+        app:layout_constraintEnd_toEndOf="@+id/someoneb"
+        app:layout_constraintStart_toStartOf="@+id/someoneb"
+        app:layout_constraintTop_toBottomOf="@+id/heading02" />
+
+    <Button
+        android:id="@+id/someoneb"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/infob"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="#EDEDED"
+        android:onClick="toGo"
+        android:text="@string/someone_like_you"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/quotesb"
+        app:layout_constraintEnd_toEndOf="@+id/quotesb"
+        app:layout_constraintStart_toStartOf="@+id/quotesb"
+        app:layout_constraintTop_toBottomOf="@+id/infob" />
+
+
+    <Button
+        android:id="@+id/quotesb"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/someoneb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="220dp"
+        android:background="#EDEDED"
+        android:onClick="toGo"
+        android:text="@string/quotes"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/profileb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/someoneb" />
+
+    <Button
+        android:id="@+id/profileb"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="#5C00CC"
+        android:onClick="toGo"
+        android:text="@string/profile"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="20"
+        app:layout_constraintBottom_toTopOf="@+id/profileb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quotesb"
+        app:srcCompat="@drawable/menu03" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sms08">
+
+
+    <TextView
+        android:id="@+id/heading06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/smsbutton"
+        android:textAllCaps="true"
+        android:textColor="#5C5A5A"
+        android:textSize="24sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/smsMessage"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSMS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/smsPhone" />
+
+    <EditText
+        android:id="@+id/smsPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/smsMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/buttonSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="sendSMS"
+        android:text="@string/send"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/smsMessage" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="40dp"
+        android:background="#5C00CC"
+        android:onClick="openActivity"
+        android:text="@string/menu"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scroll_info" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/smsPhone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading06"
+        app:layout_constraintVertical_bias="0.49"
+        app:srcCompat="@drawable/sms08" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

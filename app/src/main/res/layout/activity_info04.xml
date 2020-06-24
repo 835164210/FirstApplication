@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info04">
+
+    <TextView
+        android:id="@+id/heading06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/more_about"
+        android:textAllCaps="true"
+        android:textColor="#5C5A5A"
+        android:textSize="24sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/scroll_info"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="27dp"
+        android:background="#6600CC"
+        app:layout_constraintBottom_toTopOf="@+id/scroll_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading06" />
+
+    <ScrollView
+        android:id="@+id/scroll_info"
+        android:layout_width="391dp"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading06">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chinese_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/chinese_label"
+                android:textAllCaps="true"
+                android:textColor="#6600CC"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/csign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/chinese_label"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="monospace"
+                android:paddingRight="25dp"
+                android:text="csign"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/cdes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/csign"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="monospace"
+                android:justificationMode="inter_word"
+                android:text="cdes" />
+
+            <TextView
+                android:id="@+id/blood_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cdes"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="30dp"
+                android:paddingRight="25dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/blood_type_personality"
+                android:textAllCaps="true"
+                android:textColor="#6600CC"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/btype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/blood_label"
+                android:layout_marginLeft="24dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="monospace"
+                android:text="btype"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bdes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btype"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="monospace"
+                android:justificationMode="inter_word"
+                android:text="bdes" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="40dp"
+        android:background="#5C00CC"
+        android:onClick="openActivity"
+        android:text="@string/menu"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scroll_info" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

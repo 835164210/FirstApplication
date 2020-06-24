@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firstapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/nt"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Sms08"></activity>
+        <activity android:name=".Info04" />
+        <activity android:name=".Profile07"/>
+        <activity android:name=".Quotes06"/>
+        <activity android:name=".Someone05" />
+        <activity android:name=".Menu03"/>
+        <activity android:name=".Form02"/>
+        <activity android:name=".Form01"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

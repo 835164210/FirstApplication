@@ -1,0 +1,138 @@
+<resources>
+    // General
+    <string name="app_name">FirstApplication</string>
+    <string name="next_b01">Next</string>
+    <string name="i_have_a_dream">I have a dream</string>
+    <string name="what_are_you_waiting_for">What are you waiting for?</string>
+    // 01 Activity - Form 01
+    <string name="heading01">Who are you?</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="note_all_fields_are_required">NOTE: All fields are required</string>
+    // 02 Activity - Form 02
+    <string name="year_of_birth">Year of birth</string>
+    <string name="saved_details">Your details have been saved</string>
+    <string name="heading02">What\'s your dream?</string>
+    <string name="select_date">Select date</string>
+    <string name="industry1">Automotive</string>
+    <string name="industry2">Construction and Engineering</string>
+    <string name="industry3">Diversified</string>
+    <string name="industry4">Energy</string>
+    <string name="industry5">Fashion and Retail</string>
+    <string name="industry6">Finance and Investments</string>
+    <string name="industry7">Food and Beverage</string>
+    <string name="industry8">Gambling and Casinos</string>
+    <string name="industry9">Healthcare</string>
+    <string name="industry10">Logistics</string>
+    <string name="industry11">Manufacturing</string>
+    <string name="industry12">Media and Entertainment</string>
+    <string name="industry13">Real State</string>
+    <string name="industry14">Service</string>
+    <string name="industry15">Sports</string>
+    <string name="industry16">Technology</string>
+    <string name="industry17">Telecom</string>
+    <string name="industry_of_your_dream">Industry associated to your dream</string>
+    <string name="dream_field">I want to become an astronaut...</string>
+    <string name="motivation_field">My major motivation is my family...</string>
+    <string name="dream_motivation_required">NOTA : A \'dream\' and a \'motivation\' are required</string>
+    // 03 Activity - Menu
+    <string name="get_to_know">get to know you better</string>
+    <string name="someone_like_you">Someone like you who did it</string>
+    <string name="quotes">Quotes</string>
+    <string name="time_to_choose">Time to choose</string>
+    <string name="profile">profile</string>
+    // 04 Activity - Info
+    <string name="aBlood_label">A Blood Type</string>
+    <string name="bBlood_label">"B Blood Type "</string>
+    <string name="abBlood_label">AB Blood Type</string>
+    <string name="oBlood_label">"O Blood Type "</string>
+    <string name="blood_type_personality">Blood Type Personality</string>
+    <string name="bloodA_des">People with blood type A are clever, passionate, sensitive, and cooperative. They are loyal, patient, and they love peace. Sometimes, they may be overly sensitive about different things. For instance, they care a lot about etiquette as well as social standards. They do not like to break the set rules on etiquette or the laid down societal standards or rules.  Blood types A personalities are careful decision makers, and they take their time before they can settle on any decision. Besides, they are not good at multi-tasking, as they prefer to handle one task at a time. Blood type A personality types are very organized, and they do not like haphazard actions. They prefer to keep everything neat and in the right place. They plan everything, and every task that they engage in is carried out with a lot of consistency and seriousness. Many people with OCD fall into this category and end up seeking help from a professional counselor who can help with their compulsive issues.</string>
+    <string name="bloodB_des">People with this blood type are famous for their creativity.
+        They make their decisions very quickly, and they are not good at taking orders. When they focus on something, they put their all into it, and they are unlikely to let go even if the goal is unachievable.
+        They have a very strong drive or desire to be the best at anything that they have set their minds to do. Nevertheless, they are poor at multi-tasking, and they are likely to neglect other important tasks and put all their focus on whatever they have set their mind on at the moment.
+        Blood type B people can be thoughtful and empathetic. They are good at understanding other people´s point of view and do not like challenging or confronting others. People with blood type B make good and reliable friends.
+        They face a lot of discrimination because of their negative personalities such as selfishness and uncooperativeness at times. The society mainly focuses on the negative side of people with blood type B, even though they also have their good side. As a result, they tend to be loners, and they isolate themselves from others.</string>
+    <string name="bloodAB_des">Blood type AB is a mix of A and B personality types. People consider them complicated and double-sided. For instance, they can be outgoing just like Bs and shy like as. At times, people view them as having double personalities, and they keep their true personalities from strangers.
+        It is hard for a stranger to instantly decide which personality people with blood type AB have until they get to know them. They are the rarest blood types in the world. ABs are popular and charming, and they make friends easily. When in the company of an AB blood type personality, there can never be a dull moment.
+        They are fun and exciting friends to have around. Small stuff does not bother blood type AB personalities, but they are poor in handling stress. ABs are empathetic, and they are always careful when dealing with others. They make sure that they consider other people\'s point of view.
+        People with blood type have exceptional logical and analytical skills, and they are seen as humanists.</string>
+    <string name="bloodO_des">People with blood type O are outgoing, go-getters, and daring. They usually set high standards for themselves, and they do all they can to achieve them. Os have excellent leadership capabilities. Little things do not concern them, and this makes them appear as selfish to people in blood group A who are overly sensitive.
+        People with blood group O are generous and kind-hearted. Most people love this blood type. O blood type personalities adapt well to change. They are flexible and resilient and can do relatively well even in tough situations. Individuals with blood type O are very enduring and strong, and that is why the Japanese call them Warriors.
+        They are honest people and hate people who tell a lie or hide the truth. People with this blood type are not overly cautious about small details, as they tend to focus more on the big picture. Some of the positive personality traits in people with blood type O are; leadership ability, self-determined, easygoing, optimistic, calm, confident, outgoing, loyal, cautious, passionate, peaceful, resilient, independent, trendsetter, reliable, carefree, and devoted.
+        On the centrally, they are also jealous, rude, ruthless, insensitive, unpunctual, unpredictable, cold, self-centered, workaholic, and arrogant.</string>
+    <string name="chinese_label">Chinese sign:</string>
+    <string name="chinese1">Monkey</string>
+    <string name="chinese2">Rooster</string>
+    <string name="chinese3">Dog</string>
+    <string name="chinese4">Pig</string>
+    <string name="chinese5">Rat</string>
+    <string name="chinese6">Ox</string>
+    <string name="chinese7">Tiger</string>
+    <string name="chinese8">Rabbit</string>
+    <string name="chinese9">Dragon</string>
+    <string name="chinese10">Snake</string>
+    <string name="chinese11">Horse</string>
+    <string name="chinese12">Goat</string>
+    <string name="cdes1">People born in a year of the Monkey have magnetic personalities and are witty and intelligent. Personality traits like mischievousness, curiosity, and cleverness make them very naughty. Monkeys are masters of practical jokes, because they like playing most of the time. Although they don\'t have bad intentions, their pranks sometimes hurt other people\'s feelings. Monkeys are fast learners and crafty opportunists. They have many interests and need partners who are capable of stimulating them. While some like the eccentric nature of Monkeys, others don\'t trust their sly, restless, and inquisitive nature.</string>
+    <string name="cdes3">Dogs are loyal and honest, amiable and kind, cautious and prudent. Due to having a strong sense of loyalty and sincerity, Dogs will do everything for the person who they think is most important. As Dogs are not good at communication, it is difficult for them to convey their thoughts to others. Therefore, they tend to leave others with the impression that they have a stubborn personality. When thrown into doubt, Dogs think the world is evil and complicated. Then they criticize sharply when making comments, and infer that all things are according to their pessimistic point of view.</string>
+    <string name="cdes7">People born in a year of the Tiger are brave, competitive, unpredictable, and confident. They are very charming and well-liked by others. But sometimes they are likely to be impetuous, irritable, and overindulged. With stubborn personalities and tough judgment, Tigers work actively and express themselves boldly, doing things in a high-handed manner. They are authoritative and never go back on what they have said. With great confidence and indomitable fortitude, they can be competent leaders. They will not make preparations for anything, but can handle anything that comes along.</string>
+    <string name="cdes11">People born in a year of the Horse are extremely animated, active and energetic. Horses love to be in a crowd, and they can usually be seen on such occasions as concerts, theater performances, meetings, sporting events, and parties. With a deft sense of humor, Horses are masters of repartee. They love to take center stage and delight audiences everywhere. It is necessary for the horse to have a lot of freedom and independency, so it is hard for them to adjust to a schedule prepared by someone else. They have a sharp and quick mind which makes them good at identifying patterns and sense what you are thinking before you state it.</string>
+    <string name="cdes12">People born in a year of the Goat are generally believed to be gentle, mild-mannered, shy, stable, sympathetic, amicable, and brimming with a strong sense of kindheartedness and justice. They have very delicate thoughts, strong creativity, and perseverance, and acquire professional skills well. Although they look gentle on the surface, they are tough on the inside, always insisting on their own opinions in their minds. They have strong inner resilience and excellent defensive instincts. Although they prefer to be in groups, they do not want to be the center of attention. They are reserved and quiet, most likely because they like spending a lot of time in their own thoughts.</string>
+    <string name="cdes2">People born in a year of the Rooster are very observant. Hardworking, resourceful, courageous, and talented, Roosters are very confident in themselves. They are always active, amusing, and popular within a crowd. Talkative, outspoken, frank, open, honest, and loyal individuals. They like to be the center of attention and always appear attractive and beautiful. Roosters are happiest when they are surrounded by others, whether at a party or just a social gathering. They enjoy the spotlight and will exhibit their charm on any occasion.</string>
+    <string name="cdes4">Pigs are diligent, compassionate, and generous. They have great concentration: once they set a goal, they will devote all their energy to achieving it. Though Pigs rarely seek help from others, they will not refuse to give others a hand. Pigs never suspect trickery, so they are easily fooled. General speaking, Pigs are relatively calm when facing trouble. No matter how difficult the problems are Pigs encounter, they can handle things properly and carefully. They have a great sense of responsibility to finish what they are engaged in.</string>
+    <string name="cdes5">Rats are quick-witted, resourceful, and smart but lack courage. With rich imaginations and sharp observations, they can take advantage of various opportunities well. In Chinese culture, rats represent working diligently and thriftiness, so people born in a Rat year are thought to be wealthy and prosperous. Due to a lack of courage, as well as good command skills, they are not capable of being leaders. Opportunistic and picky as male Rats are, they do not have broad minds but take a narrow view of things. Women born in a Rat year are pretty, smart, and lovely. They have quick minds and dexterous hands, and are able to learn anything. They are always considerate of their families and friends.</string>
+    <string name="cdes6">"Oxes are known for diligence, dependability, strength and determination. Having an honest nature, Oxes are strongly patriotic, have ideals and ambitions for life, and attach importance to family and work.  These reflect traditional conservative characteristics. Women Oxes are traditional, faithful wives, who attach great importance to their children's education. Having great patience and a desire to make progress, Oxes can achieve their goals by consistent effort. They are not much influenced by others or the environment, but persist in doing things according to their ideals and capabilities. "</string>
+    <string name="cdes8">Rabbits tend to be gentle, quiet, elegant, and alert as well as quick, skillful, kind, patient, and very responsible. However, they might be superficial, stubborn, melancholy, and overly-discreet.  Gentlemen who belong to the Rabbit zodiac sign always treat people politely, with a gentle smile that makes people feel that they are credible and sincere. Ladies belonging to the Rabbit zodiac sign, apart from having a pretty and demure appearance, have a pure heart. Rabbits are faithful to those around them but are reluctant to reveal their minds to others, and have a tendency to escape reality. They are too cautious and conservative, which means they miss good opportunities.</string>
+    <string name="cdes9">The Dragon symbolizes power, nobleness, honor, luck, and success in traditional Chinese culture. The Dragon is a supernatural being with no parallel for talent and excellence. Among the Chinese zodiac animals, the dragon is the sole imaginary animal. The Chinese dragon is the most vital and powerful beast in the Chinese zodiac. Gifted with innate courage, tenacity, and intelligence, Dragons are enthusiastic and confident. Sometimes regarded as aggressive, angry Dragons can’t take criticism and don’t like following traditions. In many other cultures, such as the Western, they look at the dragon as a symbol for evil and darkness. But in China, they regard the dragon as being a symbol representing imperial power and authority.</string>
+    <string name="cdes10">Snakes represent the symbol of wisdom. They are intelligent and wise. They are good at communication but say little. Snakes are usually regarded as great thinkers. Snakes are materialistic and love keeping up with the Joneses. They love to possess the best of everything but they have no patience for shopping. Snake people prefer to work alone; therefore, they are easily stressed. If they seem unusually stressed, it is best to allow them their own space and time to return to normal.</string>
+    <string name="description_main">This app tries to awake the interest the user has in their identity as an individual, and helps the user identify the key aspects of their dreams</string>
+    <string name="more_about">More about you</string>
+    // 05 Activity - Someone
+    <string name="heading05">Someone like you</string>
+    <string name="industry">Industry</string>
+    // 06 Activity - Quotes
+    <string name="previous">Previous</string>
+    <string name="menu">Menu</string>
+    <string name="quote1">\"Do the difficult things while they are easy and do the great things while they are small\" (Lao Tzu).</string>
+    <string name="quote2">\"Live where you fear to live. Destroy your reputation. Be notorious\" (Rumi).</string>
+    <string name="smsbutton">Send as a SMS</string>
+    <string name="phone_number">Phone number</string>
+    <string name="send">Send</string>
+    <string name="quote_is">\"Quote is: \"</string>
+    <string name="quote3">“It\'s not over until I win” (Les Brown).</string>
+    // 07 Activity - Profile
+    <string name="dream_label">My Dream</string>
+    <string name="reason_label">Reason not to give up</string>
+    <string name="a_leader_in_your_industry">A leader in your industry</string>
+    <string name="due_to">Due to:</string>
+    //Activity 08 - SMS
+    <string name="action_success_sms">Action successfully achieved</string>
+    <string name="action_sms_failed">SMS Failed to Send. Please try again</string>
+    //Arrays
+    <string-array name="bloodType">
+        <item>@string/aBlood_label</item>
+        <item>@string/bBlood_label</item>
+        <item>@string/abBlood_label</item>
+        <item>@string/oBlood_label</item>
+    </string-array>
+    <string-array name="industryDream">
+        <item>@string/industry1</item>
+        <item>@string/industry2</item>
+        <item>@string/industry3</item>
+        <item>@string/industry4</item>
+        <item>@string/industry5</item>
+        <item>@string/industry6</item>
+        <item>@string/industry7</item>
+        <item>@string/industry8</item>
+        <item>@string/industry9</item>
+        <item>@string/industry10</item>
+        <item>@string/industry11</item>
+        <item>@string/industry12</item>
+        <item>@string/industry13</item>
+        <item>@string/industry14</item>
+        <item>@string/industry15</item>
+        <item>@string/industry16</item>
+        <item>@string/industry17</item>
+    </string-array>
+</resources>

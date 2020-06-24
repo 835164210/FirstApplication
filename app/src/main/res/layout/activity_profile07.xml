@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile07">
+
+    <TextView
+        android:id="@+id/namelast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Name and Last Name"
+        android:textAllCaps="true"
+        android:textColor="#5C5A5A"
+        android:textSize="24sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="413dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="25dp"
+        android:background="#EDEDED"
+        app:layout_constraintBottom_toTopOf="@+id/my_dream_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namelast">
+
+
+        <TextView
+            android:id="@+id/clabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/chinese_label"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/ctext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/clabel"
+            android:fontFamily="monospace"
+            android:text="Chinese Sign:"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/blabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/clabel"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/blood_type_personality"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/btext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ctext"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/blabel"
+            android:fontFamily="monospace"
+            android:text="Blood Type:"
+            android:textAllCaps="false" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/my_dream_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/dream_label"
+        android:textAllCaps="true"
+        android:textColor="#6600CC"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/myDream"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+    <TextView
+        android:id="@+id/myDream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="monospace"
+        android:text="dream"
+        app:layout_constraintBottom_toTopOf="@+id/reason_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_dream_label"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="25dp" />
+
+    <TextView
+        android:id="@+id/reason_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/reason_label"
+        android:textAllCaps="true"
+        android:textColor="#6600CC"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/myReason"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myDream" />
+
+    <TextView
+        android:id="@+id/myReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="monospace"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/dueto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reason_label" />
+
+    <TextView
+        android:id="@+id/dueto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/due_to"
+        android:textAllCaps="true"
+        android:textColor="#6600CC"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myReason" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="40dp"
+        android:background="#5C00CC"
+        android:onClick="openActivity"
+        android:text="@string/menu"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scroll_info" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

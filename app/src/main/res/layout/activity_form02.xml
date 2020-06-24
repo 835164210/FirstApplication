@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Form02">
+
+
+    <TextView
+        android:id="@+id/heading02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/heading02"
+        android:textAllCaps="true"
+        android:textColor="#6600CC"
+        android:textSize="30sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/dream"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/dream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:hint="@string/dream_field"
+        android:maxLength="40"
+        android:paddingLeft="15dp"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/year"
+        app:layout_constraintEnd_toEndOf="@+id/category_dream"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/category_dream"
+        app:layout_constraintTop_toBottomOf="@+id/heading02" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="monospace"
+        android:text="@string/industry_of_your_dream"
+        android:textColor="#6600CC"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/category_dream"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dream" />
+
+    <Spinner
+        android:id="@+id/category_dream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toTopOf="@+id/date_when"
+        app:layout_constraintEnd_toEndOf="@+id/date_when"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/date_when"
+        app:layout_constraintTop_toBottomOf="@+id/year" />
+
+    <Button
+        android:id="@+id/date_when"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:text="@string/select_date"
+        app:layout_constraintBottom_toTopOf="@+id/motivation"
+        app:layout_constraintEnd_toEndOf="@+id/motivation"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/motivation"
+        app:layout_constraintTop_toBottomOf="@+id/category_dream" />
+
+    <EditText
+        android:id="@+id/motivation"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:gravity="start|top"
+        android:hint="@string/motivation_field"
+        android:inputType="textMultiLine"
+        android:maxLength="150"
+        android:paddingLeft="15dp"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/button02"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="@+id/button02"
+        app:layout_constraintTop_toBottomOf="@+id/date_when" />
+
+    <TextView
+        android:id="@+id/next_01"
+        android:layout_width="313dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="190dp"
+        android:layout_marginRight="190dp"
+        android:fontFamily="monospace"
+        android:text="@string/dream_motivation_required"
+        app:layout_constraintBottom_toTopOf="@+id/button02"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/motivation" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/next_01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:enabled="false"
+        android:onClick="saveForm02"
+        android:text="@string/next_b01"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

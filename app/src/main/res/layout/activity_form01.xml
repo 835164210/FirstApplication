@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Form01">
+
+    <TextView
+        android:id="@+id/heading01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/heading01"
+        android:textAllCaps="true"
+        android:textColor="#6600CC"
+        android:textSize="30sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toTopOf="@+id/name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:hint="@string/first_name"
+        android:maxLength="20"
+        android:paddingLeft="15dp"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/lastname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading01" />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="monospace"
+        android:hint="@string/last_name"
+        android:maxLength="20"
+        android:paddingLeft="15dp"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/blood_select"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <Spinner
+        android:id="@+id/blood_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toTopOf="@+id/year"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastname" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="monospace"
+        android:text="@string/year_of_birth"
+        android:textColor="#6600CC"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/yearpick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blood_select" />
+
+    <NumberPicker
+        android:id="@+id/yearpick"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_below="@id/blood_select"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="24dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/next_01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/year" />
+
+    <TextView
+        android:id="@+id/next_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/note_all_fields_are_required"
+        app:layout_constraintBottom_toTopOf="@+id/button01"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/next_01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:enabled="false"
+        android:onClick="saveForm01"
+        android:text="@string/next_b01"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
