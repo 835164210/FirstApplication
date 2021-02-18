@@ -1,5 +1,5 @@
 # First Android Application
-## Who, What, When
+### Who, What, When
 
 ![Featured image](./featured_.png)
 
@@ -13,14 +13,14 @@ A project-centered course helped me complete this personally meaningful project.
 - Displays web pages
 
 
-### Tech
+## Tech
 
 The app uses different frameworks, languages, and tools to work properly. Main technologies:
 
 * [Android Studio] - the official IDE for Google's Android operating system
 * [Java] - object-oriented programming language
 
-### Installation
+## Installation
 The Food Journal Tracker requires [Android Studio](https://developer.android.com/studio) to run.
 
 Clone this repository and import into Android Studio.
@@ -30,7 +30,7 @@ https://github.com/ahn-nath/FirstApplication.git
 ```
 For more information on how to run the app on a real device or an emulator after importing it, follow this [tutorial](https://developer.android.com/training/basics/firstapp/running-app).
 
-### Adittional 
+## Adittional 
 
 If you would like to know more about the project and its functionalities:
 
