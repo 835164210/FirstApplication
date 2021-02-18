@@ -3,14 +3,15 @@
 
 ![Featured image](./featured_.png)
 
-This app aims to awaken the interest the user has in their identity as an individual, and helps them identify the key aspects of their dreams, so they can turn their deepest ambitions into achievable goals. It was initially created to test my Android development skills and experiment with what I learned from an online course. 
+This app aims to awaken the interest the user has in their identity as an individual and helps them identify the key aspects of their dreams, so they can turn their deepest ambitions into achievable goals. It was initially created to test my Android development skills and experiment with what I learned from an online course. 
 
 A project-centered course helped me complete this personally meaningful project.
 
 - The app is in Spanish and English
 - Counts with two forms that use Shared Preferences to store the data
-- Allows the user to send a SMS text to any phone number (Explicit Intends)
+- Allows the user to send an SMS text to any phone number (Explicit Intends)
 - Displays web pages
+
 
 ### Tech
 
